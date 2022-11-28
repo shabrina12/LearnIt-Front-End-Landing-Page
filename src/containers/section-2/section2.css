@@ -1,0 +1,111 @@
+.section-2 {
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: var(--font-poppins);
+}
+.section-2 .image-container {
+    background-image: url('../../images/section-2/Shapes.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* flex: 1; */
+}
+.section-2 .image-container img:first-child {
+    position: relative;
+    /* width: 100%;
+    height: auto; */
+    top: 12%;
+    /* right: 3%; */
+}
+.section-2 .image-container img:last-child {
+    position: relative;
+    left: 25%;
+}
+.value-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.value-container-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+/* .value-card {
+    border: 1px solid blue;
+} */
+.value-card h2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 35px;
+    font-family: var(--font-playfair);
+}
+.value-card p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+.btn-getstarted {
+    width: 35%;
+    padding: 1rem 0;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-family: var(--font-poppins);
+    background-color: var(--color-purple);
+}
+.btn-getstarted:hover {
+    border: 1px solid var(--color-purple);
+    background: var(--background-gradient);
+}
+
+@media screen and (max-width: 1100px) {
+    .section-2 {
+        flex-direction: column;
+    }
+    .section-2 .image-container img:first-child {
+        width: 100%;
+        height: auto;
+        bottom: -200px;
+        right: 0;
+    }
+    .section-2 .image-container img:last-child {
+        width: 90%;
+        height: auto;
+        left: 15%;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .section-2 {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-2 {
+        padding: 4rem 2rem;
+    }
+    .section-2 .image-container img:first-child {
+        bottom: -115px;
+    }
+    .section-2 .image-container img:last-child {
+        left: 10%;
+    }
+    .btn-getstarted {
+        width: 100%;
+    }
+}

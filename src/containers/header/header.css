@@ -1,0 +1,106 @@
+header {
+    padding: 4rem 8rem 0 8rem;
+    background: var(--background-gradient);
+}
+.header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-poppins);
+}
+.heading-img-container {
+    width: 100%;
+    height: auto;
+    background: url('../../images/header/vector.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+.heading-img-container img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.heading-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+}
+.heading-text-container span {
+    font-family: var(--font-playfair);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+.heading-text-container h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 106%;
+}
+.heading-text-container p {
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 35px;
+    width: 80%;
+}
+.search-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.search-container input {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+}
+.search-container img {
+    padding: 1rem;
+    background: white;
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .header, .search-container {
+        gap: 1rem;
+    }
+    .search-container {
+        margin-top: 1rem;
+    }
+    .heading-text-container, .heading-text-container p {
+        width: 100%;
+    }
+    .heading-text-container span, .heading-text-container p {
+        font-size: 1rem;
+    }
+    .heading-text-container h1 {
+        font-size: 3rem;
+    }
+    .heading-text-container p {
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        padding: 4rem 4rem 0 4rem;
+    }
+    .header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 4rem 2rem 0 2rem;
+    }
+    .heading-img-container {
+        width: 115%;
+        background-position: center;
+    }
+}

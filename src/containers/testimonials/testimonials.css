@@ -1,0 +1,83 @@
+.testimonials-container {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-family: var(--font-poppins);
+    background-color: var( --background-gray);
+}
+.testimonials-container .subHeading {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-container .subHeading p {
+    width: 60%;
+}
+.testimonial-card {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-card .img-profile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    float: right;
+}
+.testimonial-card .img-petik {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    float: right;
+}
+.testimonial-card p {
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 26px;
+    margin-bottom: 1rem;
+    color: var(--color-gray);
+}
+.testimonial-card h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 184.5%;
+    margin-top: 0.5rem;
+}
+.slick-list {
+    margin: 0 -10px;
+}
+.slick-slide>div {
+    width: 70%;
+    height: 100%;
+    margin: 10px 70px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: var(--color-purple);
+}
+
+@media screen and (max-width: 1000px) {
+    .testimonials-container {
+        padding: 4rem;
+    }
+    .testimonials-container .subHeading p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testimonials-container {
+        padding: 4rem 2rem;
+    }
+    .slick-slide>div {
+        width: 90%;
+        height: 100%;
+        margin: 10px 20px;
+    }
+}

@@ -1,0 +1,25 @@
+.subHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.subheading-span {
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 21px;
+    color: var(--color-purple);
+    font-family: var(--font-poppins);
+}
+.subheading-title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 45px;
+    font-family: var(--font-playfair);
+}
+.subheading-p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 27px;
+    color: var(--color-gray);
+    font-family: var(--font-poppins);
+}

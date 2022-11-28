@@ -1,0 +1,96 @@
+.section-6 {
+    padding: 8rem 10rem 8rem 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-family: var(--font-poppins);
+    background-color: var(--background-gray);
+}
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.section-6 button {
+    padding: 1rem;
+    color: white;
+    width: 15%;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+    left: 45%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color-purple);
+}
+.section-6 button:hover {
+    border: 1px solid var(--color-purple);
+    background: var(--background-gradient);
+}
+.blog-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.blog-card h2 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 35px;
+    font-family: var(--font-playfair);
+}
+.blog-card p, .profile-container p {
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-gray);
+}
+.blog-card p {
+    font-size: 1.15rem;
+}
+.profile-container {
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile-container p {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .section-6 {
+        padding: 4rem;
+    }
+    .section-6 button {
+        width: 40%;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-6 {
+        padding: 4rem 2rem;
+        gap: 2rem;
+    }
+    .blog-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .section-6 button {
+        width: 60%;
+        left: 20%;
+    }
+}

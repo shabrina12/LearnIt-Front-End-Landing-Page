@@ -1,0 +1,62 @@
+.partners-section {
+    padding: 4rem 8rem;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--background-gray);
+    font-family: var(--font-poppins);
+}
+.section-top-container, .section-bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-title-container h1 {
+    font-family: var(--font-playfair);
+    font-weight: 900;
+    font-size: 1.6rem;
+    line-height: 35px;
+}
+.partner-title-container p, .testimony-container p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: var(--color-gray);
+}
+.testimony-container {
+    text-align: right;
+}
+
+@media screen and (max-width: 1100px) {
+    .partners-section {
+        padding: 4rem;
+    }
+    .section-bottom-container {
+        gap: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-bottom-container {
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .partners-section {
+        padding: 2rem;
+    }
+    .section-top-container, .section-bottom-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .partner-title-container, .testimony-container {
+        text-align: center;
+    }
+}
