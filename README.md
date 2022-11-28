@@ -5,4 +5,4 @@ Page Design & elements from https://ui8.net/ Published by Dmm Kreativ
 
 Deployed Web: https://chipper-gumdrop-952236.netlify.app/
 
-![Design preview for LearnIt landing page](./src/images/learnit-preview.png)
+![Design preview for LearnIt landing page](./src/images/learnit-web.png)
