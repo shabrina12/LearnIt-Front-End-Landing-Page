@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 500px) {
     .partners-section {
-        padding: 2rem;
+        padding: 4rem 2rem;
     }
     .section-top-container, .section-bottom-container {
         display: flex;

@@ -91,13 +91,13 @@ header {
     }
     .header {
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
     }
 }
 
 @media screen and (max-width: 500px) {
     header {
-        padding: 4rem 2rem 0 2rem;
+        padding: 2rem 2rem 0 2rem;
     }
     .heading-img-container {
         width: 115%;
