@@ -31,6 +31,10 @@
     color: white;
     background: var(--color-purple);
 }
+/* .links-course-container a:hover, .active {
+    color: white;
+    background: var(--color-purple);
+} */
 .courses-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

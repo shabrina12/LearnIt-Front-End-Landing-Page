@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {bookIcon, watchIcon} from '../../images';
 import SubHeading from '../../components/subHeading/SubHeading';
 import Data from './CourseData';
@@ -21,22 +21,28 @@ const CourseCard = Data.map(item => {
 })
 
 const Section3 = () => {
+    const [isActive, setIsActive] = useState();
+
+    // function handleClick() {
+    //     setIsActive(isActive => !isActive);
+    // };
+
   return (
     <section className='section-3'>
         <SubHeading subtitle='COURSE FEATURES' title='Featured Courses' desc='Pursue your interests at your own pace by choosing the course duration, number of lessons per week, and lectures per day' />
         <div className='links-course-container'>
             <ul>
-                <li><a href='#' className='active'>All Courses</a></li>
-                <li><a href='#'>Development</a></li>
-                <li><a href='#'>Photography</a></li>
-                <li><a href='#'>Design</a></li>
-                <li><a href='#'>Marketing</a></li>
-                <li><a href='#'>Music</a></li>
-                <li><a href='#'>Business</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses'? "active" : null} onClick={()=>setIsActive('#courses')}>All Courses</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses2'? "active" : null} onClick={()=>setIsActive('#courses2')}>Development</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses3'? "active" : null} onClick={()=>setIsActive('#courses3')}>Photography</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses4'? "active" : null} onClick={()=>setIsActive('#courses4')}>Design</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses5'? "active" : null} onClick={()=>setIsActive('#courses5')}>Marketing</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses6'? "active" : null} onClick={()=>setIsActive('#courses6')}>Music</a></li>
+                <li className='course-btn'><a href='#courses' className={isActive === '#courses7'? "active" : null} onClick={()=>setIsActive('#courses7')}>Business</a></li>
             </ul>
         </div>
         <div className='container'>
-            <div className='courses-container'>
+            <div className='courses-container' id='courses'>
                 {CourseCard}
             </div>
             <button type='button'>See All</button> 

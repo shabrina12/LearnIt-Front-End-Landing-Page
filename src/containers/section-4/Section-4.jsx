@@ -5,7 +5,7 @@ import './section4.css'
 
 const Section4 = () => {
   return (
-    <section className='section-4'>
+    <section className='section-4' id='education'>
         <div className='heading-container'>
             <SubHeading subtitle='EDUCATION' title='Become An Instructor' desc='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna' />
             <button type='button'>Explore</button>
