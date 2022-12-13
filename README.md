@@ -4,7 +4,7 @@ Library used:
 1. react icons
 2. react slick
 
-Page Design & elements from https://ui8.net/ Published by Dmm Kreativ 
+Web Design & elements from https://ui8.net/ Published by Dmm Kreativ 
 (link: https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
 
 Deployed Web: https://visionary-queijadas-b6b2ca.netlify.app/
