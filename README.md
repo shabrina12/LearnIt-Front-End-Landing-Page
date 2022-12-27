@@ -45,7 +45,7 @@ This project is a single page web front end for Learn It using the React JS fram
 
 ### What I learned
 
-I learned a simple way to add slider function in testimonial section using swiper js library
+I learned a simple way to add slider function in testimonial section using react slick library
 
 Code snippets, see below:
 ```js
