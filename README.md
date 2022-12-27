@@ -49,32 +49,40 @@ I learned a simple way to add slider function in testimonial section using swipe
 
 Code snippets, see below:
 ```js
-<Swiper className='swiper'
-            breakpoints={{
-                // width >= 300
-                300: {
-                    slidesPerView: 1,
-                    spaceBetween: 70
-                },
-                // width >= 600
-                600: {
-                    slidesPerView: 1,
-                    spaceBetween: 100
-                },
-                // width >= 1000
-                1000: {
-                    slidesPerView: 2,
-                    spaceBetween: 130
-                }
-            }}
-            modules={[Navigation, Pagination, A11y]}
-            spaceBetween={120}
-            slidesPerView={2}
-            navigation
-            pagination={{ clickable: true }}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
-        >
+const settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1210,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              initialSlide: 2
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    };
 ```
 
 ![Overview for testimonials section](./src/images/testimonials-learnit.png)
@@ -83,7 +91,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 
 ### Continued development
-The development of this project can be continued by adding functionality to the cart, and implementing infinite scrolling in the product section
+The development of this project can be continued by creating multiple page for each list in navigation bar, and implementing infinite scrolling in the feature courses section
 
 ### Useful resources
 - [Figma Web Design & elements i used for this project is published by Dmm Kreativ](https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
