@@ -22,19 +22,16 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.links-course-container a {
+.course-btn {
     padding: 0.8rem 2rem;
     text-decoration: none;
     border-radius: 30px;
 }
-.links-course-container a:hover, .active {
+.course-btn:hover {
+    cursor: pointer;
     color: white;
     background: var(--color-purple);
 }
-/* .links-course-container a:hover, .active {
-    color: white;
-    background: var(--color-purple);
-} */
 .courses-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
