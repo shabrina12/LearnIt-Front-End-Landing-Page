@@ -28,7 +28,7 @@ This project is a single page web front end for Learn It using the React JS fram
 ![Design preview for LearnIt landing page](./src/images/header-learnit.png)
 
 ### Links
-- [Live Site URL](https://visionary-queijadas-b6b2ca.netlify.app/)
+- [Live Site URL](https://learn-it-front-end-webpage.vercel.app/)
 
 ## My process
 
@@ -97,15 +97,12 @@ The development of this project can be continued by creating multiple page for e
 - [Figma Web Design & elements i used for this project is published by Dmm Kreativ](https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
 - [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design some are free. I really liked this website and will use it going forward.
 - [Article about creating carousel using react slick](https://blog.logrocket.com/create-carousel-react-slick/) - This is an article which helped me understand react slick.
+- [Youtube video on category filtering in React JS](https://www.youtube.com/watch?v=cbEHLalLLeM)
+- [Article about category filtering in React JS](https://contactmentor.com/filter-list-by-category-react-js/)
 
 
 ## Author
 
 - Github - [Shabrina Putri](https://github.com/shabrina12/)
-- Instagram - [@shabputri_](https://www.twitter.com/yourusername)
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Instagram - [@shabputri_](https://www.instagram.com/shabputri_/)
 
