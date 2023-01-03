@@ -49,9 +49,29 @@ This project is a single page web front end for Learn It using the React JS fram
 
 
 ### What I learned
+I learned how to implement a filter function using react hooks to filter courses based on each category
+![All course](./src/images/filter-all-course.png)
+Code snippets, see below:
+```js
+const allCategories = ['All', ...new Set(Data.map(course => course.category))];
 
-I learned a simple way to add slider function in testimonial section using react slick library
+const [courseMenu, setCourseMenu] = useState(Data);
+const [buttons, setButtons] = useState(allCategories);
+  
+//filter category function
+const filter = (button) =>{
+  if(button === 'All'){
+    setCourseMenu(Data);
+      return;
+  }
+  const filteredData = Data.filter(course => course.category ===  button);
+  setCourseMenu(filteredData)
+}
+```
+The following screenshot is an example of displaying a list of courses based on business category
+![Filter business course](./src/images/filter-course.png)
 
+I also learned a simple way to add slider function in testimonial section using react slick library
 Code snippets, see below:
 ```js
 const settings = {
