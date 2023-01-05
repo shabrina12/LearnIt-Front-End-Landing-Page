@@ -1,5 +1,5 @@
 # Responsive Front End Website - LearnIt Course using React JS
-This project is a single page front end web for Learn It using the React JS framework. I created this project as an exercise to develop front end skills
+This project is a single page front end web for Learn It built with React JS framework. I created this project as an exercise to develop front end skills
 
 ## Table of contents
 
