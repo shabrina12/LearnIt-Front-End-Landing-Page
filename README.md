@@ -13,8 +13,6 @@ This project is a single page front end web for Learn It built with React JS fra
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-
 
 ## Overview
 
@@ -121,10 +119,4 @@ The development of this project can be continued by creating multiple page for e
 - [Article about creating carousel using react slick](https://blog.logrocket.com/create-carousel-react-slick/) - This is an article which helped me understand react slick.
 - [Youtube video on category filtering in React JS](https://www.youtube.com/watch?v=cbEHLalLLeM)
 - [Article about category filtering in React JS](https://contactmentor.com/filter-list-by-category-react-js/)
-
-
-## Author
-
-- Github - [Shabrina Putri](https://github.com/shabrina12/)
-- Instagram - [@shabputri_](https://www.instagram.com/shabputri_/)
 
