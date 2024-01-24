@@ -115,11 +115,12 @@ const settings = {
 ### Continued development
 The development of this project can be continued by creating multiple page for each links in navigation bar, and implementing infinite scrolling in the courses section (section 3)
 
-## Author
-Github - [Shabrina Putri](https://github.com/shabrina12)
 ### Useful resources
 - [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design some are free. I really liked this website and will use it going forward.
 - [Article about creating carousel using react slick](https://blog.logrocket.com/create-carousel-react-slick/) - This is an article which helped me understand react slick.
 - [Youtube video on category filtering in React JS](https://www.youtube.com/watch?v=cbEHLalLLeM)
 - [Article about category filtering in React JS](https://contactmentor.com/filter-list-by-category-react-js/)
+
+## Author
+Github - [Shabrina Putri](https://github.com/shabrina12)
 
